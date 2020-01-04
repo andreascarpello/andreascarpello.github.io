@@ -4,15 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: path
-  label: label
-  match: "**/*"
 - type: directory
   path: Here
   label: Directory
   create: all
   match: "**/*"
+- type: document
+  path: path
+  label: label
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
