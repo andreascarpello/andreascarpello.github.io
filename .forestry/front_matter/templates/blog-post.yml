@@ -7,5 +7,14 @@ fields:
   config:
     required: false
   label: Title
+- name: block_area
+  type: blocks
+  label: Block area
+  template_types:
+  - blocks
+  config:
+    min: 
+    max: 
+  description: block area
 pages:
 - Here/test.md
