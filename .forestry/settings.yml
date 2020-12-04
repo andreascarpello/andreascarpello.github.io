@@ -6,6 +6,13 @@ webhook_url:
 sections:
 - type: directory
   path: ''
+  label: Blog
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
+- type: directory
+  path: ''
   label: Blocks
   create: all
   match: "**/*"
