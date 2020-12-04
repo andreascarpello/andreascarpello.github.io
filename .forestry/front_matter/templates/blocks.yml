@@ -1,4 +1,23 @@
 ---
 label: Blocks
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: textarea
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Textarea
+- name: image_gallery
+  type: file
+  config:
+    maxSize: 64
+  label: Image gallery
